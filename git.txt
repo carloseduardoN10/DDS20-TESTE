@@ -1,0 +1,28 @@
+git init - criar/inicializar repositório
+
+
+configurar conta 
+git config --global user.name "Carlos Eduardo"
+git config --global user.email "carlos.e.marques10@aluno.senai.br"
+
+
+git add . (avisar que criou uma nova versão/ modificou o arquivo)
+git commit -m "comentário" (salva a nova versão)
+git status (mostra o status dos arquivos/repositório)
+git log (mostra todos os commits salvos no repositorio)
+touch nomearquivo.txt (cria um novo arquivo pelo terminal)
+git checkout iddocommit (transitar entre os commit)
+git checkout master (volta para a versão mais recente de commit)
+git remote add origin linkdorepositorio exemplo: https://github.com/carloseduardoN10/DDS20-TESTE.git (direciona para onde o repositório local ira no github)
+git remote -v (mostra para aonde o repositório esta sendo direcionado)
+git remote remove origin (remove o direcionamento ao repositório online)
+git branch -M main (muda a branch de master para main) master é a branch do git e main do GitHub
+git push -u origin main (envia as informações do repositório local para o online'github')
+git pull (faz o reverso do git push)
+
+
+git psh -u -f origin main (força o push)CUIDADO!
+
+
+
+:qa!
